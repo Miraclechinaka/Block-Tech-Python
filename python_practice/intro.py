@@ -28,3 +28,25 @@ else:
 # 4. Take a string input, convert it to uppercase, and print
 user_string = input("Enter a string: ")
 print("Uppercase:", user_string.upper())
+#ASSIGNMENT
+# Write a code that can slice through a list of 10 programming languages.
+# Rewrite that same code using a Tuple
+# Attempt slicing the Tuple like you sliced the List
+programming_languages = [
+    "Python", "Java", "C", "C++", "Ruby", "JavaScript", "HTML", "CSS", 
+    "SQL", "PHP", "Swift", "Kotlin", "Rust", "Go", "Perl", "MATLAB", 
+    "TypeScript", "Bash", "PowerShell", "Lua"
+]
+
+print(programming_languages)
+print(programming_languages[0:20])  
+programming_languages = (
+    "Python", "Java", "C", "C++", "Ruby", "JavaScript", "HTML", "CSS", 
+    "SQL", "PHP", "Swift", "Kotlin", "Rust", "Go", "Perl", "MATLAB", 
+    "TypeScript", "Bash", "PowerShell", "Lua" 
+)
+
+print(programming_languages)
+print(programming_languages[0:20])
+
+
