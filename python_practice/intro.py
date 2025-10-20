@@ -1,4 +1,4 @@
-print("Hello world")
+""""print("Hello world")
 print("Welcome to python programmer")
 name = "Miracle Chinaka"
 age = 20
@@ -47,6 +47,14 @@ programming_languages = (
 )
 
 print(programming_languages)
-print(programming_languages[0:20])
-
-
+print(programming_languages[0:20]) """
+# Make a list of 5 fruits
+fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"]
+print(fruits)
+fruits[1] = "Grapes"
+print(fruits)
+fruits.insert(2, "Watermelon")
+print(fruits)
+fruits.append("Strawberry")
+print(fruits)
+print(len(fruits))
